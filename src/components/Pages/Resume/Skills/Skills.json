@@ -1,0 +1,39 @@
+
+
+[
+  {
+    "title": "HTML",
+    "percentage": "90%",
+    "value": "90"
+  },
+  {
+    "title": "CSS",
+    "percentage": "75%",
+    "value": "75"
+  },
+  {
+    "title": "JavaScript",
+    "percentage": "70%",
+    "value": "70"
+  },
+  {
+    "title": "React",
+    "percentage": "75%",
+    "value": "70"
+  },
+  {
+    "title": "Redux",
+    "percentage": "60%",
+    "value": "60"
+  },
+  {
+    "title": "Node.js",
+    "percentage": "60%",
+    "value": "60"
+  },
+  {
+    "title": "MongoDB",
+    "percentage": "50%" ,
+    "value": "50"
+  }
+]

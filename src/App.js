@@ -1,24 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import About from "./components/Pages/About/About";
+import Resume from "./components/Pages/Resume/Resume";
+import Portfolio from "./components/Pages/Portfolio/Portfolio";
+import Blog from "./components/Pages/Blog/Blog";
+import Contact from "./components/Pages/Contact/Contact";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <main>
+    <Sidebar />
+    <div className="main-content">
+      <Router>
+        <Navbar toggleTheme={toggleTheme}/>
+        <Routes>
+          <Route exact path="/" element={<About />} />
+          <Route exact path="/resume" element={<Resume />} />
+          <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
     </div>
+    </main>
   );
 }
 

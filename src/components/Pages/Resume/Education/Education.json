@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "college": "School of Commerce and Management Science",
+    "year": "2020 - 2022",
+    "degree" : "Human Resource Management",
+    "percentage": "75.59 %",
+    "university": "S.R.T.M University, Nanded"
+  },
+  {
+    "id": 1,
+    "college": "Yeshwant Mahavidyalaya Nanded",
+    "year": "2017 - 2020",
+    "degree" : "Bachelor of Science",
+    "percentage": "74.54 %",
+    "university": "S.R.T.M University, Nanded"
+  },
+  {
+    "id": 2,
+    "college": "Netaji Subhash Chandra Bose High School",
+    "year": "2014 - 2015",
+    "degree" : "HSC",
+    "percentage": "65.85 %",
+    "university": "Maharashtra State Board"
+  }
+]
