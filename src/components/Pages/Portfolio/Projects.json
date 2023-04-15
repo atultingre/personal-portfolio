@@ -1,5 +1,12 @@
 [
   {
+    "id": 7,
+    "title": "GitHub Clone",
+    "category": "React - Javascript - GitHub Api - CSS",
+    "image": "./images/project-7.png",
+    "url": "https://gitinsight.netlify.app/"
+  },
+  {
     "id": 1,
     "title": "Portfolio",
     "category": "React",
@@ -41,5 +48,6 @@
     "image": "./images/project-6.png",
     "url": "https://qrcodegenerator-tingrecodes.netlify.app/"
   }
+  
 
 ]
