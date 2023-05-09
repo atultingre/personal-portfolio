@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to Front-End Development",
+    "category": "Coursera",
+    "image": "./images/certificates/Introduction to Front-End Development.jpg",
+    "url": "https://drive.google.com/file/d/1-VJ2PDUDv80jA3LHjZPGS0DRyCQWEv8a/view"
+  },
+  {
+    "id": 2,
+    "title": "Zero to Hero React JS mastery E-degree course",
+    "category": "Udemy",
+    "image": "./images/certificates/Zero to Hero React JS mastery E-degree course.jpg",
+    "url": "https://drive.google.com/file/d/1-Q546_m2AMm9kPuy0rlYXbGi0QSt7c44/view"
+  }
+]
